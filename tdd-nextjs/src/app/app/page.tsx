@@ -10,6 +10,7 @@ export default function App() {
 
       <div className="flex gap-4">
         <ServerComponent />
+
         <ClientComponent />
       </div>
     </main>

@@ -1,5 +1,5 @@
+import { getUser, type User } from "@/lib";
 import ClientComponent from "@/components/ClientComponent";
-import { getUser, User } from "@/lib";
 import ServerishComponent from "@/components/ServerishComponent";
 
 export default function Pages({ user }: { user: User }) {
