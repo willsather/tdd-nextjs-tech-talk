@@ -1,0 +1,19 @@
+{
+  "name": "hex-turbo-example",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "test": "turbo test",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "@repo/vitest-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "dependencies": {
+    "@types/node": "^20.10.6"
+  }
+}
