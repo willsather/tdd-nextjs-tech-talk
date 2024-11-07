@@ -107,11 +107,10 @@ An adapter will be dependent on the interface (policy module) provided by the re
 
 ## Shared Configuration
 
-Located under `/packages/config` is all of the shared configuration which the Turborepo uses. This is a great space to put handy developer tools and code cleanliness configuration.
+Located under `/packages/config` is all the shared configuration which the Turborepo uses. This is a great space to put handy developer tools and code cleanliness configuration.
 
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/jest-config`: `jest` configurations for `browser` and `node` configurations
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@repo/vitest-config`: `vitest` configurations for `browser` and `node` configurations
 
 ## Useful Architecture Links
 
