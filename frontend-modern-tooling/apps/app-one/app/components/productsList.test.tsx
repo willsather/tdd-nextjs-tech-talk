@@ -1,7 +1,7 @@
+import type { ProductService } from "@repo/commerce";
 import { render, screen } from "@testing-library/react";
-import { ProductService } from "@repo/commerce";
-import ProductsList from "./productsList";
 import serviceLocator from "../ServiceLocator";
+import ProductsList from "./productsList";
 
 describe("ProductsList", () => {
   const mockProductService: ProductService = {

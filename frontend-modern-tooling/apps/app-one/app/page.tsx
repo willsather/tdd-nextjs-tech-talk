@@ -11,11 +11,6 @@ export default async function Page(): Promise<JSX.Element> {
       <br />
       <br />
 
-
-
-
-
-
       <ProductList />
     </div>
   );

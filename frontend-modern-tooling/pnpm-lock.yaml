@@ -30,6 +30,9 @@ importers:
       '@repo/commerce':
         specifier: workspace:*
         version: link:../../packages/commerce
+      '@repo/payment':
+        specifier: workspace:*
+        version: link:../../packages/payment
       next:
         specifier: ^15.0.3
         version: 15.0.3(react-dom@18.3.1)(react@18.3.1)

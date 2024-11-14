@@ -1,3 +1,3 @@
-import CheckoutService from "./CheckoutService";
+import type CheckoutService from "./CheckoutService";
 
-export { type CheckoutService };
+export type { CheckoutService };

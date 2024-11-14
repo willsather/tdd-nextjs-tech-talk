@@ -1,3 +1,3 @@
-import { Checkout } from "./Checkout";
+import type { Checkout } from "./Checkout";
 
-export { type Checkout };
+export type { Checkout };

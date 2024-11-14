@@ -10,7 +10,7 @@ describe("app-one", () => {
 
     expect(screen.getByText("Application #1")).toBeInTheDocument();
     expect(
-      screen.getByText("Example next.js app router application")
+      screen.getByText("Example next.js app router application"),
     ).toBeInTheDocument();
   });
 });

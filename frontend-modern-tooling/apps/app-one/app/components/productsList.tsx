@@ -1,4 +1,4 @@
-import { type Product } from "@repo/commerce";
+import type { Product } from "@repo/commerce";
 import serviceLocator from "../ServiceLocator";
 
 export default async function ProductList() {

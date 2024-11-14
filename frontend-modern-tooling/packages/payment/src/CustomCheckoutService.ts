@@ -1,5 +1,5 @@
-import CheckoutService from "./interfaces/CheckoutService";
-import { Checkout } from "./types/Checkout";
+import type CheckoutService from "./interfaces/CheckoutService";
+import type { Checkout } from "./types";
 
 export default class CustomCheckoutService implements CheckoutService {
   async prepareCheckout(amount: string, currency: string): Promise<Checkout> {

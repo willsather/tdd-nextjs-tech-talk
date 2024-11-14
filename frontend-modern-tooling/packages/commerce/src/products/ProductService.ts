@@ -1,4 +1,4 @@
-import { Product } from "./Product";
+import type { Product } from "./Product";
 
 export default interface ProductService {
   getProduct: (id: string) => Promise<Product>;

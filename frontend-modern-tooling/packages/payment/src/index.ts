@@ -1,6 +1,6 @@
-import { Checkout } from "./types/Checkout";
-import CheckoutService from "./interfaces/CheckoutService";
 import CustomCheckoutService from "./CustomCheckoutService";
+import type CheckoutService from "./interfaces/CheckoutService";
+import type { Checkout } from "./types";
 
-export { type Checkout, type CheckoutService as ICheckoutService };
+export type { Checkout, CheckoutService };
 export { CustomCheckoutService };

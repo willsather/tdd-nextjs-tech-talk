@@ -35,9 +35,8 @@ $ pnpm test
 This project also has some configured some tools like:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [Jest](https://jestjs.io/) for unit testing
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- [Vitest](https://jestjs.io/) for unit testing (`pnpm test`)
+- [Biome](https://eslint.org/) for code linting and formatting (`pnpm lint` or `pnpm lint:fix`)
 
 ## Applications
 

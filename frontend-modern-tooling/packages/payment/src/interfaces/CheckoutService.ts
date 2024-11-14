@@ -1,4 +1,4 @@
-import { Checkout } from "../types/Checkout";
+import type { Checkout } from "../types";
 
 export default interface CheckoutService {
   prepareCheckout: (amount: string, currency: string) => Promise<Checkout>;

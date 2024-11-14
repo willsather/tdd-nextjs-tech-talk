@@ -1,5 +1,5 @@
-import { defineConfig } from "vitest/config";
 import { browserConfig } from "@repo/vitest-config";
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   ...browserConfig,
