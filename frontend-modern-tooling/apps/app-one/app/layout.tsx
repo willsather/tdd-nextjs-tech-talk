@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
+import "./tailwind.css";
+
 export const metadata: Metadata = {
   title: "Example App 1",
   description: "Example application number one",

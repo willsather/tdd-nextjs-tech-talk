@@ -14,11 +14,18 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
+  "dependencies": {
+    "@t3-oss/env-core": "^0.11.1",
+    "zod": "^3.23.8"
+  },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@repo/vitest-config": "workspace:*",
-    "vitest": "^2.1.4",
+    "best-behavior": "^0.10.0",
+    "great-expectations": "^1.5.2",
     "tsup": "^8.0.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.4"
   }
 }
